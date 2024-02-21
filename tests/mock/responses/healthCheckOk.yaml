@@ -1,0 +1,7 @@
+status: 200
+headers: 
+  foo: bar
+body: 
+  status: API Online
+  uptime: "123211"
+  environment: live

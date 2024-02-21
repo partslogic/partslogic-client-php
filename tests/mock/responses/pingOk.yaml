@@ -1,0 +1,4 @@
+status: 200
+headers: 
+  foo: bar
+body: '"OK"'

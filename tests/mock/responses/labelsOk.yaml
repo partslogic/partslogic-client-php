@@ -1,0 +1,16 @@
+status: 200
+headers: 
+  content-type: application/json; charset=utf-8
+body: 
+  - id: "61d6d46dea7279c8404e5c01"
+    groupId: 1
+    name: "Year"
+    priority: 998
+  - id: "61d6d46dea7279c8404e5c03"
+    groupId: 1
+    name: "Make"
+    priority: 997
+  - id: "61d6d46dea7279c8404e5c02"
+    groupId: 1
+    name: "Model"
+    priority: 996

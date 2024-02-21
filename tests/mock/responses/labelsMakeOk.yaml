@@ -1,0 +1,10 @@
+status: 200
+headers: 
+  content-type: application/json; charset=utf-8
+body: 
+  - id: "653c520363a9e1015400f88b"
+    fitmentId: "25"
+    groupId: 1
+    label: "Make"
+    value: "Chevrolet"
+    priority: 998 

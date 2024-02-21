@@ -1,0 +1,10 @@
+status: 200
+headers: 
+  content-type: application/json; charset=utf-8
+body: 
+  - id: "649f6e79b6e15308f92b1484"
+    fitmentId: "18227"
+    groupId: 1
+    label: "Year"
+    value: "2024"
+    priority: 998

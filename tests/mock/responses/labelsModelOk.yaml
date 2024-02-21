@@ -1,0 +1,10 @@
+status: 200
+headers: 
+  content-type: application/json; charset=utf-8
+body: 
+  - id: "65b83f075722ffc90538b518"
+    fitmentId: "3150"
+    groupId: 1
+    label: "Model"
+    value: "Ram 1500"
+    priority: 0

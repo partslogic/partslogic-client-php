@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    volumes: [.:/app]
+
+    environment:
+      - PARTSLOGIC_API_KEY=ec6be0c4-dcc3-4e0d-8c81-8ca72860594b
+      #- PARTSLOGIC_USE_MOCK_RESPONSES=0
+

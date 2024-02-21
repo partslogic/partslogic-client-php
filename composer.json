@@ -1,0 +1,27 @@
+{
+    "name": "partslogic/apiclient",
+    "description": "Client Library for PartsLogic APIs",
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "monolog/monolog": "^2.9"
+    },
+    "require-dev": {
+        "guzzle/plugin-mock": "^3.9",
+        "symfony/yaml": "^5.4",
+        "balping/json-raw-encoder": "^1.0",
+        "rtheunissen/guzzle-log-middleware": "^2.0",
+        "geekdevs/guzzle-log-middleware-formatters": "^1.0",
+        "squizlabs/php_codesniffer": "^3.8",
+        "phpspec/prophecy-phpunit": "^2.1",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "PartsLogic\\": "src/"
+        }
+    }
+}
