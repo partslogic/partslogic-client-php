@@ -39,4 +39,21 @@ class ProductsTest extends ApiTest
         $this->assertTrue($response->isSuccess());
         $this->assertEquals($response->getStatusCode(), 200);
     }
+
+    public function testProductsFilteredOk()
+    {
+        $params = [ 
+            'Drive' => [ '2wd', '4wd' ], 
+            'page' => 1, 
+            'limit' => 1
+        ];
+        $this->addMockResponse("productsFilteredOk");
+        $response = $this->apiRequest->get($params);
+
+        $this->assertInstanceOf(Response::class, $response);
+        $body = $response->getBody();
+
+        $this->assertTrue($response->isSuccess());
+        $this->assertEquals($response->getStatusCode(), 200);
+    }
 }

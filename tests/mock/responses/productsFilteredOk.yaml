@@ -1,0 +1,246 @@
+status: 200
+headers: 
+  content-type: application/json; charset=utf-8
+body: 
+  list:
+  - id: 30502833
+    availability: Available
+    brand_name: King Shocks
+    condition: New
+    dealerid: 25001-136
+    image_url: https://kingshocks.com/images/T198650379.jpg
+    price: 949
+    remarks: ''
+    sale: 0
+    title: King Shocks Front Kit OEM Performance Series for Ford F250 / F350 4wd 25001-136
+    tag: ''
+    rating_count: 0
+    url: https://kingshocks.com/i-30502833?q=
+    inventory: 0
+    availability_remarks: ''
+    sale_hidden: 0
+    stockid: FBJG-25001-136
+    has_options: true
+    fitment_applicability: Fitment-Specific
+  total: 33
+  facets:
+  - name: Fitment-Specific or Universal
+    values:
+    - id: Fitment-Specific
+      name: Fitment-Specific
+      results: 33
+  - name: categories
+    values:
+    - id: 1389529
+      name: FORD
+      results: 33
+  - name: brands
+    values:
+    - id: 158999
+      name: King Shocks
+      results: 33
+  - name: STROKE (IN)
+    values:
+    - id: '10.513'
+      name: '10.513'
+      results: 1
+    - id: '10.807'
+      name: '10.807'
+      results: 2
+    - id: '11.678'
+      name: '11.678'
+      results: 1
+    - id: '11.699'
+      name: '11.699'
+      results: 2
+    - id: '3.864'
+      name: '3.864'
+      results: 2
+    - id: '5.104'
+      name: '5.104'
+      results: 2
+    - id: '5.255'
+      name: '5.255'
+      results: 2
+    - id: '5.345'
+      name: '5.345'
+      results: 2
+    - id: '5.630'
+      name: '5.630'
+      results: 2
+    - id: '6.690'
+      name: '6.690'
+      results: 1
+    - id: '6.911'
+      name: '6.911'
+      results: 2
+    - id: '6.931'
+      name: '6.931'
+      results: 1
+    - id: '8.162'
+      name: '8.162'
+      results: 2
+    - id: '8.520'
+      name: '8.520'
+      results: 2
+    - id: '8.565'
+      name: '8.565'
+      results: 2
+    - id: '9.170'
+      name: '9.170'
+      results: 2
+    - id: '9.490'
+      name: '9.490'
+      results: 1
+    - id: '9.751'
+      name: '9.751'
+      results: 2
+  - name: Shock Type
+    values:
+    - id: Coil-Over
+      name: Coil-Over
+      results: 16
+    - id: Smooth Body
+      name: Smooth Body
+      results: 16
+  - name: COMP LENGTH (IN)
+    values:
+    - id: '13.624'
+      name: '13.624'
+      results: 1
+    - id: '13.804'
+      name: '13.804'
+      results: 2
+    - id: '13.817'
+      name: '13.817'
+      results: 2
+    - id: '14.696'
+      name: '14.696'
+      results: 2
+    - id: '15.641'
+      name: '15.641'
+      results: 2
+    - id: '16.005'
+      name: '16.005'
+      results: 2
+    - id: '16.137'
+      name: '16.137'
+      results: 1
+    - id: '16.577'
+      name: '16.577'
+      results: 2
+    - id: '17.148'
+      name: '17.148'
+      results: 2
+    - id: '17.560'
+      name: '17.560'
+      results: 1
+    - id: '17.652'
+      name: '17.652'
+      results: 2
+    - id: '17.693'
+      name: '17.693'
+      results: 2
+    - id: '17.695'
+      name: '17.695'
+      results: 4
+    - id: '17.751'
+      name: '17.751'
+      results: 2
+    - id: '18.049'
+      name: '18.049'
+      results: 1
+    - id: '18.346'
+      name: '18.346'
+      results: 2
+    - id: '20.575'
+      name: '20.575'
+      results: 1
+  - name: Reservoir Type
+    values:
+    - id: Internal Floating Piston
+      name: Internal Floating Piston
+      results: 2
+    - id: Piggyback
+      name: Piggyback
+      results: 8
+    - id: Remote Reservoir
+      name: Remote Reservoir
+      results: 13
+  - name: Shock Body Diameter
+    values:
+    - id: 2.5"
+      name: 2.5"
+      results: 30
+    - id: 3.0"
+      name: 3.0"
+      results: 2
+  - name: EXT LENGTH (IN)
+    values:
+    - id: '20.441'
+      name: '20.441'
+      results: 2
+    - id: '20.555'
+      name: '20.555'
+      results: 1
+    - id: '20.729'
+      name: '20.729'
+      results: 2
+    - id: '21.966'
+      name: '21.966'
+      results: 2
+    - id: '22.252'
+      name: '22.252'
+      results: 2
+    - id: '22.950'
+      name: '22.950'
+      results: 2
+    - id: '22.997'
+      name: '22.997'
+      results: 2
+    - id: '23.216'
+      name: '23.216'
+      results: 2
+    - id: '23.325'
+      name: '23.325'
+      results: 2
+    - id: '24.206'
+      name: '24.206'
+      results: 2
+    - id: '25.175'
+      name: '25.175'
+      results: 2
+    - id: '25.627'
+      name: '25.627'
+      results: 1
+    - id: '27.265'
+      name: '27.265'
+      results: 1
+    - id: '28.073'
+      name: '28.073'
+      results: 1
+    - id: '28.097'
+      name: '28.097'
+      results: 2
+    - id: '28.500'
+      name: '28.500'
+      results: 2
+    - id: '29.450'
+      name: '29.450'
+      results: 2
+    - id: '29.727'
+      name: '29.727'
+      results: 1
+  - name: Drive
+    values:
+    - id: 2wd
+      name: 2wd
+      results: 15
+    - id: 4wd
+      name: 4wd
+      results: 28
+  vehicleQualifiers: []
+  clearFacetsOnFitmentSave: true
+  qualifiersStatus: restricted
+  exactPartMatch: false
+  
