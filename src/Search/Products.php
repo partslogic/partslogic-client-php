@@ -26,14 +26,13 @@ use PartsLogic\Search\Base;
 class Products extends Base
 {
     protected $path = 'products';
-
     protected $requiredParameters = ['page'];
     protected $optionalParameters = ['limit', 'q'];
 
     /**
      * Validate request parameters
      *
-     * Validation disabled because parameters can be dynamic 
+     * Validation disabled because parameters can be dynamic
      * facet searches
      * @param array $query key/value parameter pairs
      * @return bool true if valid
@@ -54,12 +53,12 @@ class Products extends Base
      */
     public function uri($query = [])
     {
-        $parts = [$this->path . "/" . $this->fitmentName];
+        $parts = [];
         if (! empty($query)) {
             array_push($parts, $this->buildQuery($query));
         }
 
-        return new \GuzzleHttp\Psr7\Uri(join('&', $parts));
+        return new \GuzzleHttp\Psr7\Uri($this->path . "?". join('&', $parts));
     }
 
         /**
