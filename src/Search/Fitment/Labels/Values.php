@@ -53,12 +53,12 @@ class Values extends Base
      */
     public function uri($query = [])
     {
-        $parts = [$this->path . "/" . $this->fitmentName];
+        $endpoint = $this->path . "/" . $this->fitmentName;
+        $parts = [];
         if (! empty($query)) {
             array_push($parts, $this->buildQuery($query));
         }
-
-        return new \GuzzleHttp\Psr7\Uri(join('&', $parts));
+        return new \GuzzleHttp\Psr7\Uri($endpoint . "?" . implode('&', $parts));
     }
 
         /**

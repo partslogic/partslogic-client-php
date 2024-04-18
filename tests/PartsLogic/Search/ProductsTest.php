@@ -42,9 +42,9 @@ class ProductsTest extends ApiTest
 
     public function testProductsFilteredOk()
     {
-        $params = [ 
-            'Drive' => [ '2wd', '4wd' ], 
-            'page' => 1, 
+        $params = [
+            'Drive' => [ '2wd', '4wd' ],
+            'page' => 1,
             'limit' => 1
         ];
         $this->addMockResponse("productsFilteredOk");

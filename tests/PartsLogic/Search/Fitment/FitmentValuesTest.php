@@ -72,7 +72,7 @@ class FitmentValuesTest extends ApiTest
         $baseUri = "fitment/labels/" . $label;
         $queryString = $request->buildQuery($query);
         $expectedUri = empty($query) ? $baseUri :
-                                       join("&", [$baseUri, $queryString]);
+                                       join("?", [$baseUri, $queryString]);
 
         $this->assertEquals("fitment/labels/year", $baseUri);
         $this->assertEquals($queryString, $expectedString);
